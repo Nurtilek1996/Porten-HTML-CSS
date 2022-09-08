@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+}
+
+header {
+    height: 10vh;
+    background-color: #0F0F0F
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px;
+
+}
+
+.main div a {
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-links a {
+    padding-right: 20px;
+}
+
+main {
+    height: 90vh;
+    background-image: url(./img/header-main.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.border {
+    border: 4px solid #FFFFFF;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h2 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-top: 3px solid white;
+    padding-top: 20px;
+}
+
+main img {
+    padding-bottom: 20px;
+}
+
+main p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 20px;
+    width: 700px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.season-collection {
+    height: 150vh;
+    border: 1px solid black;
+}
+
+.season-col-top {
+    border: 1px solid black;
+    height: 50%;
+    display: flex;
+}
+
+.season-col-bottom {
+    border: 1px solid black;
+    height: 50%;
+    display: flex;
+}
+
+.season-left {
+    border: 1px solid black;
+    width: 60%;
+    height: 100%;
+    background-color: #000000;
+}
+
+.season-right {
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+}
+
+.clocks {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.clock {
+    border: 1px solid black;
+    margin: 8px;
+
+}
+
+.season-left h2 {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D0D0D0;
+
+}
+
+.clock img {
+    width: 180px;
+    height: 150px;
+}
+
+.clock div {
+    background-color: #191B1C;
+    padding: 30px 10px;
+    margin-bottom: 10px;
+}
+
+.clock p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+    padding: 10px 0;
+}
+
+.season-right {
+    background-image: url(./img/sitting\ man.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.season-right a {
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
+    color: #D0D0D0;
+}
+
+.season-right h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D0D0D0;
+    padding-top: 45%;
+}
+
+.season-bottom-left {
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/costum.svg);
+}
+
+.season-bottom-right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.season-bottom-right h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+}
+
+.season-bottom-right p {
+    width: 75%;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.season-bottom-right a {
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.new-clocks {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    padding: 80px 0;
+}
+
+.new-clocks h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.brands {
+    width: 100%;
+    height: 100%;
+    background-color: #0F0F0F;
+
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.brands h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 40px;
+}
+
+/* .footer {
+    background-image: url(./img/footer-back.svg);
+
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20%;
+
+}
+
+.footer-top p {
+    width: 350px;
+    height: 100%;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+
+.footer h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+
+.footer-category a {
+     padding: 10px 25px;
+    margin: 20px;
+    background-color: #0F0F0F;
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: white; 
+}
+
+.footer-input a {
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #0F0F0F;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer-category h1 {
+    padding: 10px 15px;
+}
+
+.footer-input input {
+    padding: 10px 15px;
+    opacity: 0.4;
+}
+
+.footer-bottom {
+    justify-content: space-around;
+    background-color: #0F0F0F;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15%;
+}  */
+
+.menuburger {
+    display: none;
+    height: 40px;
+    width: 40px;
+}
